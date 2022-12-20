@@ -104,7 +104,27 @@ body {
     align-items: center;
     /* border: 2px solid purple; */
 }
-
+.solve-btn {
+    background: #2C3333;
+    background-image: -ms-linear-gradient(top, #2C3333, #395B64);
+    background-image: -o-linear-gradient(top, #2C3333, #395B64);
+    background-image: linear-gradient(to bottom, #2C3333, #395B64);
+    border-radius: 2px;
+    text-shadow: 1px 1px 3px #d4bad4;
+    box-shadow: 1px 1px 2px #ebebeb;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 6px 12px 6px 12px;
+    border: solid #c9d7e0 1px;
+    text-decoration: none;
+}
+.solve-btn:hover {
+    background: #2c3338;
+    background-image: -ms-linear-gradient(top, #2c3338, #2e6e99);
+    background-image: -o-linear-gradient(top, #2c3338, #2e6e99);
+    background-image: linear-gradient(to bottom, #2c3338, #2e6e99);
+    text-decoration: none;
+}
 .question-box-up {
     display: flex;
     justify-content: space-between;
