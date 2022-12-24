@@ -167,12 +167,54 @@ body {
 }
 .right2{
     grid-area: r2;
-    background-color: orange;
+    background-color: #2a2a2a;
     margin-right: 80px;
+    flex-direction: column;
+    min-height: 70px;
+    padding-bottom: 0;
     /* padding-right: 50px; */
 }
 .right3{
     grid-area: r3;
     background-color: green;
     margin-right: 80px;
+}
+.my-submission{
+    display: flex;
+    height: 20%;
+    /*padding: 1px;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sub-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid rgb(176, 175, 175);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.subup{
+    display: flex;
+    justify-content: space-between;
+}
+.subdown{
+    display: flex;
+    justify-content: space-between;
+}
+.scroll{
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 0.8rem;
+    font-size: 14px;
+}
+.box{
+    height:275px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid{
+    height:6rem;
 }
