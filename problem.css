@@ -33,11 +33,11 @@ body {
 }
 .top{
     grid-area: h;
-    background-color: red;
+    /* background-color: red; */
 }
 .bottom{
     grid-area: b;
-    background-color: blue;
+    /* background-color: blue; */
     
 }
 .left{
@@ -70,6 +70,9 @@ body {
     font-size: 30px;
 }
 
+.contestant-name:hover {
+    color: rgb(198, 49, 49);
+}
 .left-header-down {
     display: flex;
     /* justify-content: space-around; */
@@ -93,6 +96,7 @@ body {
 
 .left-header-btn:hover {
     background-color: #395B64;
+    color: #fff;
 }
 
 .left-body {
@@ -161,18 +165,21 @@ body {
 }
 .right1{
     grid-area: r1;
-    background-color: chocolate;
+    /* background-color: chocolate; */
+    border: 2px solid white;
     margin-right: 80px;
     /* padding-right: 50px; */
 }
 .right2{
     grid-area: r2;
-    background-color: orange;
+    /* background-color: orange; */
+    border: 2px solid white;
     margin-right: 80px;
     /* padding-right: 50px; */
 }
 .right3{
     grid-area: r3;
-    background-color: green;
+    /* background-color: green; */
+    border: 2px solid white;
     margin-right: 80px;
 }
